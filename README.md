@@ -32,6 +32,31 @@ We had to give presentation about devops in group. Our initial presentataion was
 
 We were allocated different groups and we had to interview each other and give feedback on how it went and how to improve on our interview skills further. It was very helpful as it gave us the chance to practice our skills and received feedback on how to improve it.
 
+#### Sample Inteview Question
+
+- Tell me about Yourself? (Should include your hobbies while answering it)
+- Why Sparta Global?
+- What are your aims after training?
+- Where do you see yourself in 2 / 3 years?
+- What are some key benefits of DevOps?
+- Why do you want to become a DevOps Engineer?
+- What do you think is your role as a DevOps Engineer?
+- Why do you think you should be hired?
+- Any question you'd like to ask?
+
+#### Some key points for interview preparation.
+
+- Create a good profile including the photograph.
+- Create your Github Account & LinkedIn Profile.
+- Elevator Pitch can be a good answer for Tell me about yourself.
+- Research the company you are applying at.
+- Research about the person interviewing you.
+- Don't forget to ask questions at the end of interview.
+- Always make sure you have answered what was asked, if in doubt confirm it with the interviewer. Examples:
+  - Did that answer your question? or 
+  - Do you want me to elaborate further?
+  - [Tip:] Don't use them after every question.
+
 ## What is DevOps
 - Set of Practice & Principles.
 - Different teams can work together.
