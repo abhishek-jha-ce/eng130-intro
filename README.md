@@ -85,11 +85,15 @@ The key role of DevOps Engineer includes:
 ![Key Benefits of DevOps](images/key-benefits-of-devops.jpeg)
 
 ## What is Agile?
+
+Agile can be defined as a set of practice and principles 
 - Set of Practice & Principles.
 - 
 -
 -
 -
+
+![Key Benefits of DevOps](images/agile_img.jpg)
 
 ## What is Scrum?
 -
@@ -97,3 +101,5 @@ The key role of DevOps Engineer includes:
 -
 -
 -
+
+![Key Benefits of DevOps](images/scrum_img.png)
