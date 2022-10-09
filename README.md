@@ -93,7 +93,7 @@ Agile can be defined as a set of practice and principles
 -
 -
 
-![Key Benefits of DevOps](images/agile_img.jpg)
+![Key Benefits of DevOps](images/agile_img.jpeg)
 
 ## What is Scrum?
 -
