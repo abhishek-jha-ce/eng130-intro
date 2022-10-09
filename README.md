@@ -57,12 +57,20 @@ We were allocated different groups and we had to interview each other and give f
   - Do you want me to elaborate further?
   - [Tip:] Don't use them after every question.
 
-## What is DevOps
+## DevOps
+
+### What is DevOps?
 - Set of Practice & Principles.
 - Different teams can work together.
 - Improve speed of delivery.
 - It uses CI/CD Pipeline and automation to improve efficiency.
 - It reduces time and helps reduce cost.
+
+### Role of a DevOps Engineer.
+
+### How does DevOps benefit business?
+
+
 
 ## What is Agile?
 - Set of Practice & Principles.
