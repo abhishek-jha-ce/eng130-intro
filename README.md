@@ -60,11 +60,22 @@ We were allocated different groups and we had to interview each other and give f
 ## DevOps
 
 ### What is DevOps?
-- Set of Practice & Principles.
+
+The term DevOps is a combination of two words, Development and Opreration. It is a set of practice and principles that allows a single team to manage the entire application development life cycle i.e. development, testing, deployment and monitoring. The devops culture is implemented in several phases with the help of several tools. It's main advantages are:
+
 - Different teams can work together.
 - Improve speed of delivery.
 - It uses CI/CD Pipeline and automation to improve efficiency.
 - It reduces time and helps reduce cost.
+
+
+![What is DevOps](images/devops_img.jpg)
+
+<img
+  src="/images/devops_img.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ### Role of a DevOps Engineer.
 
