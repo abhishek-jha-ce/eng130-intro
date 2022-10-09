@@ -68,16 +68,17 @@ The term DevOps is a combination of two words, Development and Opreration. It is
 - It uses CI/CD Pipeline and automation to improve efficiency.
 - It reduces time and helps reduce cost.
 
-
-![What is DevOps](images/devops_img.jpg)
-
-<img
-  src="/images/devops_img.jpg"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+<p align="center">
+  <img width="648" height="400" src="images/devops_img.png">
+</p>
 
 ### Role of a DevOps Engineer.
+
+The key role of DevOps Engineer includes:
+- Bridge the communication gap between the development & operation teams.
+- Collaborate across all teams to ensure smooth operation.
+- Efficiently implement feedbacks from end users.
+- Staying updated with relevant tools & technologies.
 
 ### How does DevOps benefit business?
 
