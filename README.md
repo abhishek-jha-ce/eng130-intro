@@ -70,7 +70,7 @@ We were allocated different groups and we had to interview each other and give f
 
 ### How does DevOps benefit business?
 
-
+![Key Benefits of DevOps](images/key-benefits-of-devops.jpeg)
 
 ## What is Agile?
 - Set of Practice & Principles.
