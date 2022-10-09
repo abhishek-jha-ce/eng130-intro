@@ -4,7 +4,15 @@
 
 ## Elevator Pitch
 
-We created an elevator pitch and we present it to our cohorts. We received detailed constructive feedback about our pitch.
+We created an elevator pitch and we present it to our cohorts. An Elevator Pitch is defined as a short description of an idea, product, or company that explains the concept in a way such that any listener can understand it in a short period of time. It's a brief way of introducing ourself and getting across key points. We need to have a good pitch for ourselves when we are interviewed by the client. Some Key points of a good Elevator Pitch:
+
+- Between 30 Seconds to 2 Minutes, but ideally 60 - 90 Seconds.
+- Highlight Achievements.
+- Use Buzzwords.
+- Be Confident, Use suitable tone and body language.
+- Include your hobbies.
+
+We received detailed constructive feedback about our pitch.
 
 ## Interview Practice
 
