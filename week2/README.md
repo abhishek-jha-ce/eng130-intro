@@ -72,8 +72,25 @@ Yes
 - **Git Bash**: Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. It is similar to terminal for linux or powershell for windows.
 - **Git GUI**: Git GUI is a graphical user interface for git that allows us to make changes to the repository by making new commits, amending existing ones, creating branches, performing local merges, and fetching/pushing to remote repositories.
 
-### Git Workflow
+## Git Workflow
 
-![Git Workflow](/images/github-workflow.png)
+When we are done with our work or changes, in the Git VCS we have to follow the following steps:
+
+- Check the status of our work, to identify if anything has been changed. `git status` command will show if there are any changes made.
+- Add the changed files to the staging area.
+``` 
+git add <filename> [To add individual file to the staging area.]
+git add . [To add all the file at once to the staging area.]
+```
+- Commit to the git folder. A message along with the commit is *highly recommended*.
+```
+git commit -m "Initial Commit"
+```
+- Once the commit is successfully done, we can push our code to the remote repository (GitHub in our case).
+```
+git push -u origin main
+```
+The -u flag creates a tracking reference for every branch that we successfully push onto the remote repository.
+![Git Workflow](images/github-workflow.png)
 
 ## Connecting Git to GitHub via SSH
