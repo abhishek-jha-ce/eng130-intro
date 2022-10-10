@@ -135,10 +135,7 @@ Scrum ceremonies are meetings that ensure that the scrum master, product owner a
 4. **Sprint Retrospective**: The last scrum ceremony is called the sprint retrospective. It occurs at the end of a sprint, after the review. The retrospective includes the development team, scrum master and product owner. The retrospective is a way for the team to understand what has worked well and what didn’t come together over the previous sprint.
 5. **Product Backlog Grooming**: Product backlog refinement, also known as product backlog grooming, is a meeting that takes place towards the completion of a sprint. The reason for the meeting is to review the backlog and keep it clean and orderly so that it’s ready for the next sprint.
 
-<p align="center">
-  <img width="474" height="237" src="images/scrum-ceremonies.jfif">
-</p>
-![Scrum Ceremonies Image](images/)
+![Scrum Ceremonies Image](images/scrum-ceremonies.png)
 
 ### Scrum Artifacts
 
@@ -167,4 +164,16 @@ Scrum artifacts define the work that must be done. Scrum artifacts can be seen a
 
 ### Python Installation
 
+- Download Python latest version (3.08 onwards) from https://www.python.org/downloads/ 
+- Once the executable file has been downloaded, Double click on the file and install Python.
+- Make sure you add Python to Environment Variable by clicking the check box.
+- Once the installation is complete check Python has be downloaded successfully by opening the command prompt or bash shell.
+- Type the command python --version and tit should display the version of the python downloaded.
+- If it doesn't display the version or displays Python is not recognized follow the above steps again.
+
 ### PyCharm Installation
+
+- Download the latest PyCharm from https://www.jetbrains.com/pycharm/download/#section=windows
+- Download the Community Edition
+- Once the executable file has been downloaded, Double click on the file and install PyCharm.
+- Open PyCharm, Create a new project, and we're ready to go!
