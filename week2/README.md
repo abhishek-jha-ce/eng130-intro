@@ -74,5 +74,6 @@ Yes
 
 ### Git Workflow
 
-![Alt text](/posts/path/to/img.jpg "Optional title")
+![Git Workflow](/images/github-workflow.png)
+
 ## Connecting Git to GitHub via SSH
