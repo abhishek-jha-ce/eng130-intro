@@ -103,11 +103,17 @@ To connect our project stored on the local host(local machine) via SSH, first we
 
 1. Navigate to the SSH folder in our local machine. If the directory doesn't exist we get the error as shown below. We have to create one.
 
-![image](https://user-images.githubusercontent.com/110366380/194913897-a9feedda-c4d6-40e8-9186-43f8b66c4640.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110366380/194913897-a9feedda-c4d6-40e8-9186-43f8b66c4640.png">
+<![image](https://user-images.githubusercontent.com/110366380/194913897-a9feedda-c4d6-40e8-9186-43f8b66c4640.png)>
+</p>
 
 2. We can create the directory using `mkdir` command, and navigate to it using `cd` command. Ignore the `mkdir` command if the folder already exist.
 
-![image](https://user-images.githubusercontent.com/110366380/194914231-f6424269-a4c7-4885-961d-8c78ebbfac73.png)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194914231-f6424269-a4c7-4885-961d-8c78ebbfac73.png">
+<![image](https://user-images.githubusercontent.com/110366380/194914231-f6424269-a4c7-4885-961d-8c78ebbfac73.png)>
+</p>
 
 3. Once we are inside that folder, we can generate the SSH key by using the following commands:
 
@@ -143,12 +149,18 @@ The key's randomart image is:
 
 5. If we see the response similar to above in our terminal, it means the key has been successfully generated. We can check them by using `ls` command. We should have 2 file(keys), a private key and a public key with the `.pub` extension.
 
-![image](https://user-images.githubusercontent.com/110366380/194916150-e82e0d4d-32ab-4c8d-bf73-7905c2f330cf.png)
-
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194916150-e82e0d4d-32ab-4c8d-bf73-7905c2f330cf.png">
+ <![image](https://user-images.githubusercontent.com/110366380/194916150-e82e0d4d-32ab-4c8d-bf73-7905c2f330cf.png)>
+ </p>
+ 
 6. We can now copy the public key to paste it into github. We access it using the `cat` command. The cat command is a utility command in Linux and is commonly used to print the content of a file onto the terminal. 
 
- ![image](https://user-images.githubusercontent.com/110366380/194916430-b0bf07a9-5a9f-4720-afc4-fd999aa07022.png)
-
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194916430-b0bf07a9-5a9f-4720-afc4-fd999aa07022.png">
+ <![image](https://user-images.githubusercontent.com/110366380/194916430-b0bf07a9-5a9f-4720-afc4-fd999aa07022.png)>
+ </p>
+  
 7. We now navigate to `settings`, in our github account by clicking our profile on the top right. Then from the left blade, we select `SSH and GPG keys` under `access` section.
 
 ![image](https://user-images.githubusercontent.com/110366380/194918204-b091f9c4-26b3-4a68-a5a7-3031c521015d.png)
@@ -156,3 +168,36 @@ The key's randomart image is:
 8. Now we click on the new SSH key button and paste the earlier copied public key onto it. Make sure to give it a name, so that it can be easily identified later.
 
 9. We have successfully connected our local machine (local git) to git hub using SSH.
+
+## Connecting PyCharm integrated terminal to GitHub
+
+1. Open PyCharm as administrator, to avoid any issues with account privileges in our local computer.
+2. Open the terminal, and commit the changes to the file following the steps shown in Git Workflow Section.
+3. Connect localhost, to remote github repository, using the following command:
+    ```
+    git remote add origin git@github.com:example_user/example_repo.git
+    ```
+4. **Blocker** It Should successfully connect or you might get an error saying `Author Identity Unknown`:
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194922591-0881d726-d65a-432b-bf28-208fc41057c2.png">
+ <![image](https://user-images.githubusercontent.com/110366380/194922591-0881d726-d65a-432b-bf28-208fc41057c2.png)>
+ </p>
+ 
+5. **Blocker** We can update our username and user email as required, following the commands:
+    ```
+    git config --global user.name "FIRST_NAME LAST_NAME"
+    git config --global user.email "you@example.com"
+    ```
+6. **Blocker** Another possible error we might encounter if we don't copy and paste the public key correctly. Watch out for white spaces.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194923346-2fc0a1fa-72e6-4520-9a4e-a502dfc4f824.png">
+ <![image](https://user-images.githubusercontent.com/110366380/194923346-2fc0a1fa-72e6-4520-9a4e-a502dfc4f824.png)>
+ </p>
+
+7. If these blockers are corrected or does not occur we can successfully push our commited files to our repository using the connection through SSH.
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/110366380/194923830-4f698bc9-c916-4f96-910f-1ac7270d96ff.png">
+ <![image](https://user-images.githubusercontent.com/110366380/194923830-4f698bc9-c916-4f96-910f-1ac7270d96ff.png)>
+ </p>
