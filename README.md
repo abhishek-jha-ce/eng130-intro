@@ -135,6 +135,11 @@ Scrum ceremonies are meetings that ensure that the scrum master, product owner a
 4. **Sprint Retrospective**: The last scrum ceremony is called the sprint retrospective. It occurs at the end of a sprint, after the review. The retrospective includes the development team, scrum master and product owner. The retrospective is a way for the team to understand what has worked well and what didn’t come together over the previous sprint.
 5. **Product Backlog Grooming**: Product backlog refinement, also known as product backlog grooming, is a meeting that takes place towards the completion of a sprint. The reason for the meeting is to review the backlog and keep it clean and orderly so that it’s ready for the next sprint.
 
+<p align="center">
+  <img width="474" height="237" src="images/scrum-ceremonies.jfif">
+</p>
+![Scrum Ceremonies Image](images/)
+
 ### Scrum Artifacts
 
 Scrum artifacts define the work that must be done. Scrum artifacts can be seen as source of vital information for the scrum team. They provide structure to the scrum process because they act as guidelines for the product development plan. There are three mostly used Scrum Artifacts:
@@ -144,12 +149,12 @@ Scrum artifacts define the work that must be done. Scrum artifacts can be seen a
     1. **User Stories**: A high-level descriptions of a feature, told from the perspective of the end-user of the product.
     2. **Bugs**: Problems that arised, that the product owner wants to be fixed.
     3. **Tasks**: Assigned to the scrum team to complete.
-4. **Sprint Backlog**: The sprint backlog is the part of the product backlog that the team will be working on in their sprint. It is like a to-do list for the sprint. The sprint backlog is further broken down into tasks for the team to execute. Every item on the sprint backlog needs to get developed, tested and documented. The product owner helps the scrum team come up with a sprint backlog during their sprint meeting. It often contains: 
+2. **Sprint Backlog**: The sprint backlog is the part of the product backlog that the team will be working on in their sprint. It is like a to-do list for the sprint. The sprint backlog is further broken down into tasks for the team to execute. Every item on the sprint backlog needs to get developed, tested and documented. The product owner helps the scrum team come up with a sprint backlog during their sprint meeting. It often contains: 
     1. **To-Do**: Tasks that have yet to start.
     2. **Doing**: Tasks where the work has begun.
     3. **Verify**: To Verify completed tasks that are waiting for verification by another scrum team member
     4. **Done**: No more work is required
-5. **Product Increment**: This is the *most important* scrum artifact. The product increment is all the product backlog items that have been completed during a sprint, all integrated, tested and ready to be delivered or deployed.
+3. **Product Increment**: This is the *most important* scrum artifact. The product increment is all the product backlog items that have been completed during a sprint, all integrated, tested and ready to be delivered or deployed.
 
 ![Scrum Artifact Image](images/scrum-artifacts.png)
 
@@ -157,3 +162,9 @@ Scrum artifacts define the work that must be done. Scrum artifacts can be seen a
 ### Three Pillars of Scrum
 
 ![Scrum Three Pillars Image](images/three-pillers-scrum.png)
+
+## Python and PyCharm Installation
+
+### Python Installation
+
+### PyCharm Installation
