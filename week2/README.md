@@ -66,3 +66,13 @@ Are you a UK resident: Yes
 DevOps
 Yes
 ```
+## Git
+
+**Git** is a free and open source software for distributed version control. It tracks changes in any set of files, and used in DevOps for coordinating work among the team. We can download git from [https://git-scm.com/](https://git-scm.com/downloads). When we download git, it downloads two additional components **Git Bash** and **Git GUI**.
+- **Git Bash**: Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. It is similar to terminal for linux or powershell for windows.
+- **Git GUI**: Git GUI is a graphical user interface for git that allows us to make changes to the repository by making new commits, amending existing ones, creating branches, performing local merges, and fetching/pushing to remote repositories.
+
+### Git Workflow
+
+![Alt text](/posts/path/to/img.jpg "Optional title")
+## Connecting Git to GitHub via SSH
