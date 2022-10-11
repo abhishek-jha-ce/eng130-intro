@@ -436,4 +436,11 @@ Traceback (most recent call last):
     essentials[0] = "coffee"
 TypeError: 'tuple' object does not support item assignment
 ```
+
+### W3School Challenge Exercise
+- Challenge Exercise Completed till Tuples
+
+![image](https://user-images.githubusercontent.com/110366380/195140523-f78d9987-cac6-411c-bfa9-b4f0f4988bc8.png)
+
+
 #### Dict
