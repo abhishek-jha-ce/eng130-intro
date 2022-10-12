@@ -457,7 +457,7 @@ student_1 = {
     "name": "Abhishek",
     "stream": "DevOps",
     "completed_lessons": 4,
-    "completed_lessons_names": ["lists", "tuples", "strings"]
+    "completed_lessons_names": ["lists", "tuples", "strings", "OOP"]
 }
 
 print(type(student_1))  # Prints <class 'dict'>
@@ -469,4 +469,19 @@ print(student_1["completed_lessons_names"][2])  # Prints strings
 
 student_1["completed_lessons"] = 3
 print(student_1["completed_lessons"])  # Prints 3
+
+# Delete an item from the list of completed_lessons_names/key
+student_1["completed_lessons_names"].remove("OOP")  # Removes OOP if found else will show error
+print(student_1["completed_lessons_names"])  # Prints ['lists', 'tuples', 'strings']
+
+# Dict Builtin Methods
+# display keys only
+print(student_1.keys())  # Output: dict_keys(['key', 'name', 'stream', 'completed_lessons', 'completed_lessons_names'])
+print(type(student_1.keys()))  # Output: <class 'dict_keys'>
+
+# display values only from student_1
+print(student_1.values())  # Output: dict_values(['values', 'Abhishek', 'DevOps', 4, ['lists', 'tuples', 'strings', # 'OOP']]) 
+print(type(student_1.values()))  # Output: <class 'dict_values'>
+
+
 ```
