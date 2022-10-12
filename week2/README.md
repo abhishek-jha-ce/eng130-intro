@@ -467,4 +467,6 @@ print(student_1["completed_lessons_names"][0])  # Prints lists
 print(student_1["completed_lessons_names"][1])  # Prints tuples
 print(student_1["completed_lessons_names"][2])  # Prints strings
 
+student_1["completed_lessons"] = 3
+print(student_1["completed_lessons"])  # Prints 3
 ```
