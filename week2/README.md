@@ -444,3 +444,27 @@ TypeError: 'tuple' object does not support item assignment
 
 
 #### Dict
+
+- What is a Dictionary - Data Collection Type
+- How to manage Dictionaries - How to manage the data using Dict
+- It works as key value pair key = value
+- syntax { "name" : "Sparta" }
+
+```
+# store student's data - name, course_name, progress, completed_lessons
+student_1 = {
+    "key": "values",
+    "name": "Abhishek",
+    "stream": "DevOps",
+    "completed_lessons": 4,
+    "completed_lessons_names": ["lists", "tuples", "strings"]
+}
+
+print(type(student_1))  # Prints <class 'dict'>
+print(student_1["stream"])  # Prints DevOps
+print(student_1["completed_lessons_names"])  # Prints ['lists', 'tuples', 'strings']
+print(student_1["completed_lessons_names"][0])  # Prints lists
+print(student_1["completed_lessons_names"][1])  # Prints tuples
+print(student_1["completed_lessons_names"][2])  # Prints strings
+
+```
